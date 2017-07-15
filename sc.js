@@ -1,7 +1,7 @@
 /**
  * Created by lenovo on 2017/7/13.
  */
-/* function MyClick(){
+ function MyClick(){
     alert("你好");
 }
 function mima(){
@@ -9,4 +9,4 @@ function mima(){
 }
 function tijiao(){
     alert("回答正确");
-} */
+}
