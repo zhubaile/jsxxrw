@@ -1,0 +1,78 @@
+*{
+   padding: 0;
+    margin: 0;
+}
+.nav{
+    width: 700px;
+    height: 40px;
+    margin: 0 auto;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    list-style: none;
+    float: left;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.lunbo{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin: 50px auto 0;
+}
+.lunbo .xg{
+    width: 400px;
+    position: absolute;
+    margin-left:50px;
+}
+.yd{
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    background:rgba(0,0,0,0.5);
+    top: 165px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    line-height: 60px;
+    cursor: pointer;
+}
+.yd.two{
+  position: absolute;
+    right: 0;
+    top: 165px;
+}
+.shuzi{
+    position: relative;
+     width: 280px;
+    height: 30px;
+    margin: -20px auto;
+}
+.tab{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.bg{
+    background-color: red;
+}
