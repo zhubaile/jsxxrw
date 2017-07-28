@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+.lbtp{
+    position: absolute;
+}
+.but{
+    position: absolute;
+    width: 320px;
+    height: 30px;
+    top: 380px;
+    left: 140px;
+}
+.but ul{
+    list-style-type: none;
+}
+.but ul li{
+    list-style: none;
+}
+.shuzi{
+    background-color: blue;
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.nub{
+    background-color: red;
+}
+.box{
+    position: absolute;
+    top: 165px;
+    width: 40px;
+    height: 60px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+.you{
+    position: absolute;
+    left: 560px;
+}
