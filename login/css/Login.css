@@ -1,0 +1,111 @@
+#left{
+    position: fixed;
+    left: 100px;
+    bottom: 150px;
+}
+#right{
+    position: fixed;
+    right: 100px;
+    bottom: 150px;
+}
+#bottom{
+    position: fixed;
+    text-align: center;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -130px;
+}
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 410px;
+    margin: -300px 0 0 -205px;
+}
+#login .header{
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#login .header img{
+    vertical-align: middle;
+}
+#login .header span{
+    color: #333333;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    vertical-align: middle;
+}
+#login .box{
+    padding: 25px 35px 30px 35px;
+    box-shadow:0 0 10px 5px #eee;
+}
+#login .box h2{
+    color: #333;
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+#login .box .box-row{
+    position: relative;
+    padding-top: 20px;
+}
+.box-row h4{
+    color: #777;
+    padding-bottom: 10px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.box-row input{
+    padding: 12px 15px;
+    width: 100%;
+    box-sizing: border-box;/* ie 浏览器不支持这种写法 */
+    background: #fcfcfc;
+    border: 1px solid #82ccfa;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.box-row input:focus{
+    border-color: #fda5a7;
+    background: #fff;
+}
+.box-row .code input{
+    width: 200px;
+    border-color: #ebebeb;
+}
+.box-row .code input:focus{
+    border-color: #fda5a7;
+}
+.box-row .code img{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.box-row .box-but{
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    background: #0498f4;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.box-row .box-but:focus{
+    background-color: #0478bf;
+}
+.box-row span{
+    display: none;
+    position: absolute;
+    bottom: -20px;
+    left: 5px;
+    color: #ff8787;
+    font-size: 12px;
+}
+.box-row.first span{
+    display: block;
+}
+.box-row .code{
+    position: relative;
+}
