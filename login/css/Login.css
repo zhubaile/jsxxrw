@@ -1,33 +1,33 @@
-#left{
+.left{
     position: fixed;
     left: 100px;
     bottom: 150px;
 }
-#right{
+.right{
     position: fixed;
     right: 100px;
     bottom: 150px;
 }
-#bottom{
+.bottom{
     position: fixed;
     text-align: center;
     bottom: 20px;
     left: 50%;
     margin-left: -130px;
 }
-#login{
+.login{
     position: absolute;
     top: 50%;
     left: 50%;
     width: 410px;
     margin: -300px 0 0 -205px;
 }
-#login .header{
+.login .header{
     line-height: 100px;
     text-align: center;
     margin-bottom: 25px;
 }
-#login .header img{
+.login .header img{
     vertical-align: middle;
 }
 #login .header span{
@@ -37,17 +37,17 @@
     font-size: 30px;
     vertical-align: middle;
 }
-#login .box{
+.login .box{
     padding: 25px 35px 30px 35px;
     box-shadow:0 0 10px 5px #eee;
 }
-#login .box h2{
+.login .box h2{
     color: #333;
     font-weight: 300;
     font-size: 20px;
     padding-bottom: 5px;
 }
-#login .box .box-row{
+.login .box .box-row{
     position: relative;
     padding-top: 20px;
 }
@@ -62,13 +62,13 @@
     width: 100%;
     box-sizing: border-box;/* ie 浏览器不支持这种写法 */
     background: #fcfcfc;
-    border: 1px solid #82ccfa;
+    border: 1px solid #ebebeb;
     border-radius: 5px;
     font-size: 16px;
     line-height: 20px;
 }
 .box-row input:focus{
-    border-color: #fda5a7;
+    border-color: #82ccfa;
     background: #fff;
 }
 .box-row .code input{
@@ -76,7 +76,7 @@
     border-color: #ebebeb;
 }
 .box-row .code input:focus{
-    border-color: #fda5a7;
+    border-color: #82ccfa;
 }
 .box-row .code img{
     position: absolute;
@@ -92,19 +92,22 @@
     border-radius: 5px;
     font-size: 16px;
 }
-.box-row .box-but:focus{
+.box-row .box-but:active{
     background-color: #0478bf;
 }
 .box-row span{
     display: none;
+}
+.box-row.error span{
+    display: block;
     position: absolute;
     bottom: -20px;
     left: 5px;
     color: #ff8787;
     font-size: 12px;
 }
-.box-row.first span{
-    display: block;
+.box-row.error input{
+    border-color: #fda5a7;
 }
 .box-row .code{
     position: relative;
